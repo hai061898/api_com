@@ -1,0 +1,30 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+    // "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frave",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1", // mã hóa dạng md5 hạy các dạng khác
+    "dotenv": "^10.0.0", // tạo biến môi trường mysql 
+    "express": "^4.17.1", // tạo môi trường chạy node 
+    "express-validator": "^6.13.0", // các biến lỗi 
+    "fs-extra": "^10.0.0", // thao tác file
+    "jsonwebtoken": "^8.5.1",// auth jwt bảo mật
+    "multer": "^1.4.3",// upload ảnh file
+    "mysql": "^2.18.1"// môi trường mysql tạo biến connect 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"// chạy node trong xuất quá trình làm api 
+  }
+  
+}
+
+
+
+
