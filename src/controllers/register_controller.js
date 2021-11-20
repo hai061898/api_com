@@ -1,5 +1,5 @@
 const { response } = require('express'); 
-const pool = require('../DataBase/DataBase');
+const pool = require('../dataBase/dataBase');
 //gọi thư viên database
 const bcrypt = require('bcrypt');
 //gọi thư viên mã hóa 
@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt');
 const createUsers = async ( req, res = response ) => {
 
     const { username, email, passwordd } = req.body;
-    // tạo 1 array request 
+    // tạo biến hằng request 
 
     const salt = bcrypt.genSaltSync();
     // biến khởi tạo hàm băm
