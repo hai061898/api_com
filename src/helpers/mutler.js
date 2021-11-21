@@ -14,6 +14,7 @@ var storage = multer.diskStorage({
 
 
 const uploadsProfile = multer({ storage: storage });
+//gọi storage (công đoạn cuối để file chứa vào storage)
 
 
 module.exports = {
