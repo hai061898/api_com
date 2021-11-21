@@ -1,7 +1,7 @@
 const { response } = require('express');
 const fs = require('fs-extra');
 const path = require('path');
-const pool = require('../DataBase/DataBase');
+const pool = require('../dataBase/dataBase');
 
 
 const changeFotoProfile = async ( req, res = response ) => {
