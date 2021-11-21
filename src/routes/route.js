@@ -55,4 +55,8 @@ router.get('/api/get-purchased-products', validateToken, getPurchasedProducts );
 router.get('/api/get-products-for-categories/:id', validateToken, getProductsForCategories );
 
 
+router.get('/api/add-home-carousel' , AddhomeCarousel);
+router.get('/api/add-category-static' , addCategoryStatic);
+router.get('/api/add-products-static' , addProductsStatic);
+
 module.exports = router ;    
