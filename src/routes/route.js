@@ -54,7 +54,7 @@ router.post('/api/save-order-products', validateToken, saveOrderProducts );
 router.get('/api/get-purchased-products', validateToken, getPurchasedProducts );
 router.get('/api/get-products-for-categories/:id', validateToken, getProductsForCategories );
 
-
+ // phần này là phần thêm của mongo 
 router.get('/api/add-home-carousel' , AddhomeCarousel);
 router.get('/api/add-category-static' , addCategoryStatic);
 router.get('/api/add-products-static' , addProductsStatic);
