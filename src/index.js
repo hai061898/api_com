@@ -3,6 +3,8 @@ const path = require('path');
 
 require('dotenv').config();
 
+require('../mongo/database/mongodb');
+
 const app = express();
 
 // Middleware
